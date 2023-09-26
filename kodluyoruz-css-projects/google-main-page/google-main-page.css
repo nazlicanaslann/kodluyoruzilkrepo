@@ -1,0 +1,38 @@
+body{
+    width: 95%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+}
+
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+    line-height: 24px;
+}
+
+.nav-li{
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.nav-li:hover{
+    text-decoration: underline;
+}
+
+.nav-btn{
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    text-decoration: none;
+    border: #4387fd;
+    padding: 8px;
+    font-weight: bold;
+}
