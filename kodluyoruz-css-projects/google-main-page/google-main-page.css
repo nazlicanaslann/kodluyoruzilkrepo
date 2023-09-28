@@ -36,3 +36,10 @@ header{
     padding: 8px;
     font-weight: bold;
 }
+
+#logo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
